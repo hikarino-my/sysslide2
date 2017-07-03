@@ -63,17 +63,4 @@ onKeyPress／onKeyDown／onKeyUp〔キーの状態に応じて処理を行う〕
 onMouseOut／onMouseOver／onMouseDown／onMouseUp〔マウスを乗せたり離した時、マウスでクリックした時に処理を行う〕
 onMousemove〔マウスを動かしている時に処理を行う〕
 ---
-
----
-- ループ
-  -　forループ
-    - iは何番目のループかを格納
-    - i=0は初期値
-    - i==0から、i<10までループする
-    - i++はi=i+1の略
----?code=function.js
-- 関数
-  - 処理を保存
-  - 引数という値を与えることができる
----
 #以上
