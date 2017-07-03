@@ -6,11 +6,8 @@ p{
 }
 /*idがaのものに指定*/
 /*要素の周囲に10pxの余白を作る*/
-#a{
-  margin:10px;
-}
+#a{margin:10px;}
+
 /*classがbのものに一括指定*/
 /*枠線が中ぐらいの太さで、直線で、黒色*/
-.b{
-  border: medium solid black;
-}
+.b{border: medium solid black;}
