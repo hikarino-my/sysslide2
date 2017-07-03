@@ -1,0 +1,15 @@
+/*pタグに指定(こうやってコメントを入れられる)*/
+/*pの背景色「赤」*/
+p{
+  background-color:red;
+}
+/*idがaのものに指定*/
+/*要素の周囲に10pxの余白を作る*/
+#a{
+  margin:10px;
+}
+/*classがbのものに一括指定*/
+/*枠線が中ぐらいの太さで、直線で、黒色*/
+.b{
+  border: medium solid black;
+}
