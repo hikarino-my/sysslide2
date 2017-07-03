@@ -60,5 +60,6 @@ onClick/onDblClick
 onKeyPress/onKeyDown/onKeyUp
 onMouseOut/onMouseOver/onMouseDown/onMouseUp
 onMousemove
+- 結論:その都度ググる
 ---
 #以上
