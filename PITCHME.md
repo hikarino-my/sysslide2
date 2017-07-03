@@ -12,22 +12,25 @@
 ##html導入
 - wiki記法をめんどくさくしたもの(原型)
 - 全てのwebページはこれを表示している
----?code=tag.html
+---?code=first.html
 <dl>
   <dt>タグ</dt>
   <dd>ページの中の一つの要素を囲う</dd>
 </dl>
 ---
-文字の出力  
-コンソールパネルを開いて確認  
-Macならoption+command+j  
-windowsならF12キー
----?code=var.js
 <dl>
-  <dt>変数</dt>
-  <dd>データを保存する箱</dd>
+  <dt>pタグ</dt>
+  <dd>段落</dd>
+  <dt>h1タグなど</dt>
+  <dd>見出し(h1,h2,h3,h4,h5,h6の順に小さくなる)</dd>
+  <dt>divタグ</dt>
+  <dd>とりあえず要素を作るときに使う(デザインを指定するときに使ったりする)</dd>
 </dl>
----?code=data.js
+---?code=style.css
+##css導入
+- デザインを指定する
+- 背景色、要素の位置、見え方などを指定できる
+---?code=style.css
 データ形式一覧
 ---?code=collection-array.js
 - 配列
