@@ -45,11 +45,26 @@
 - 2.その要素のcssや要素の中のテキスト部分を操作
 - 3.結果、HTMLが書き換わる
 ---?code=getelement.js
----?code=click.js
-##クリックを取得
+---
+##クリックイベントを取得
 - クリックイベントを登録
 - クリックされた時の挙動を関数で定義
----?code=for.js
+---?code=click.js
+---
+各種イベント
+onBlur／onFocus〔フォーカスが移動した時に処理を行う〕
+onChange〔フォームの入力値、選択が変更されたときに処理を行う〕
+onSelect／onSelectStart〔テキストが選択された時に処理を行う〕
+onSubmit／onReset〔フォームの送信時、リセット時に処理を行う〕
+onAbort／onError〔画像読み込み時に処理を行う〕
+onLoad／onUnload〔ページ読み込み時、ページの切り替え時に処理を行う〕
+onClick／onDblClick〔クリック、ダブルクリックされた時に処理を行う〕
+onKeyPress／onKeyDown／onKeyUp〔キーの状態に応じて処理を行う〕
+onMouseOut／onMouseOver／onMouseDown／onMouseUp〔マウスを乗せたり離した時、マウスでクリックした時に処理を行う〕
+onMousemove〔マウスを動かしている時に処理を行う〕
+---
+
+---
 - ループ
   -　forループ
     - iは何番目のループかを格納
